@@ -27,18 +27,18 @@ class Seshat < Formula
   on_macos do
     on_arm do
       url "https://github.com/KSDaemon/seshat/releases/download/v#{version}/seshat-aarch64-apple-darwin-v#{version}.tar.gz"
-      sha256 "0a5da50214446b94a7e54bfa51a02651f6bcdf3b17651f3f79199b9b32611b10"
+      sha256 "d261bce7d5988e421095e4be9b1bf9b7f4eec8031f80f576cd7dd2ef57a2739b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/KSDaemon/seshat/releases/download/v#{version}/seshat-aarch64-unknown-linux-gnu-v#{version}.tar.gz"
-      sha256 "55285404ab91efff0ef746a5501b3e4d6ffb6e76c27b26db84b3a6f496868683"
+      sha256 "f8a50bdd4deff8d262bf92724cf52aea5fc53edad0630caa9a1b0610fb63a5ba"
     end
     on_intel do
       url "https://github.com/KSDaemon/seshat/releases/download/v#{version}/seshat-x86_64-unknown-linux-gnu-v#{version}.tar.gz"
-      sha256 "1c3e02d34c2c9ff151b0d4571fd97556367f106abf60bf76b2c2e7c47258c570"
+      sha256 "ae3b1a49e79ebe467ffb3742f9477fbb874f6ce5a412259cb677f652fc91432e"
     end
   end
 
