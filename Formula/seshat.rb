@@ -16,7 +16,7 @@
 class Seshat < Formula
   desc "Operating manual for your codebase, written for AI agents (MCP server)"
   homepage "https://github.com/KSDaemon/seshat"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   # Release archive filenames embed the tag after the target triple
@@ -27,18 +27,18 @@ class Seshat < Formula
   on_macos do
     on_arm do
       url "https://github.com/KSDaemon/seshat/releases/download/v#{version}/seshat-aarch64-apple-darwin-v#{version}.tar.gz"
-      sha256 "a2fbb84ccb61d2d71f47f261928a5fee81aef340a6efa1ebdeae2bc787a9c0a9"
+      sha256 "ff03476e2953e61d64a25b0b249a341e1beb8de70b6fca98db8a96b5a193e4cb"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/KSDaemon/seshat/releases/download/v#{version}/seshat-aarch64-unknown-linux-gnu-v#{version}.tar.gz"
-      sha256 "3f04c259a8409e836dd7d1d819ce917a021e5ba396f26cf7042f7a27389d2079"
+      sha256 "980d2d6c8737b4983447775f0ff7316d7351aaa3cfd04b3cb9ee8e5a1eb44bd4"
     end
     on_intel do
       url "https://github.com/KSDaemon/seshat/releases/download/v#{version}/seshat-x86_64-unknown-linux-gnu-v#{version}.tar.gz"
-      sha256 "9ee3bc61b1ef68e802ec809bc358d9528b89e5b9d28d410ad844cdc3b8cca453"
+      sha256 "a177f094236421e04ff9f48f4e6ad5c1d36463562c4229f13acb8e004b4fe5b2"
     end
   end
 
